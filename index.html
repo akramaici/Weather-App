@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteo app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <input id="cityName" type="text" placeholder="enter city name">
+            <button id="search-icon"><img src="images/search.png" ></button>
+        </div>
+        <div class="temp-box">
+         <img id="weather-etat" src="images/clear.png" >
+         <span id="degree">10°c</span>
+         <p id="city">Algerie</p>
+        </div>
+        <div class="humidity-wind-box">
+            <div class="stats">
+                <img src="images/humidity.png" >
+                <div class="humidity-stats">
+                    <p id="humidity">48%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="stats">
+                <img src="images/humidity.png" >
+                <div class="humidity-stats">
+                    <p id="wind">48%</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
